@@ -15,7 +15,8 @@ func DescribeTemp(city string, temp int) string {
 	return city + " is cold"
 }
 func main() {
-	fmt.Println(DescribeTemp("Benue", 18))
 	fmt.Println(DescribeTemp("Lagos", 38))
-	fmt.Println(DescribeTemp("London", 10))
+	fmt.Println(DescribeTemp("London", 12))
+	fmt.Println(DescribeTemp("Abuja", 27))
+	fmt.Println(DescribeTemp("Jos", 15))
 }
