@@ -7,10 +7,10 @@ func IsAdult(age int) bool {
 		return true
 	}
 	return false
-}
-func main() {
-	fmt.Println(IsAdult(20))
-	fmt.Println(IsAdult(15))
-	fmt.Println(IsAdult(18))
-	fmt.Println(IsAdult(50))
-}
+// }
+// func main() {
+// 	fmt.Println(IsAdult(20))
+// 	fmt.Println(IsAdult(15))
+// 	fmt.Println(IsAdult(18))
+// 	fmt.Println(IsAdult(50))
+// }
