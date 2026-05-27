@@ -11,8 +11,8 @@ func TellSign(num int) string {
 	}
 	return "Zero"
 }
-// func main() {
-// 	fmt.Println(TellSign(2))
-// 	fmt.Println(TellSign(-1))
-// 	fmt.Println(TellSign(0))
-// }
+func main() {
+	fmt.Println(TellSign(2))
+	fmt.Println(TellSign(-1))
+	fmt.Println(TellSign(0))
+}
