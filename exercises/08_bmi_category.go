@@ -15,8 +15,8 @@ func BMICategory(name string, weight float64, height float64) string {
 	}
 	return fmt.Sprintf("%s is obese", name)
 }
-func main() {
-	fmt.Println(BMICategory("Aso", 40.5, 1.2))
-	fmt.Println(BMICategory("Aso", 70.5, 12.5))
-	fmt.Println(BMICategory("Aso", 10.5, 5.5))
-}
+// func main() {
+// 	fmt.Println(BMICategory("Aso", 40.5, 1.2))
+// 	fmt.Println(BMICategory("Aso", 70.5, 12.5))
+// 	fmt.Println(BMICategory("Aso", 10.5, 5.5))
+// }
