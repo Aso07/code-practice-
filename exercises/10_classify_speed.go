@@ -13,10 +13,10 @@ func ClassifySpeed(name string, speed int) string {
 		return fmt.Sprintf("%s Normal", name)
 	}
 	return fmt.Sprintf("%s Too Slow", name)
-}
-func main() {
-	fmt.Println(ClassifySpeed("Aso", 150))
-	fmt.Println(ClassifySpeed("ido", 100))
-	fmt.Println(ClassifySpeed("kate", 80))
-	fmt.Println(ClassifySpeed("joy", 50))
-}
+// }
+// func main() {
+// 	fmt.Println(ClassifySpeed("Aso", 150))
+// 	fmt.Println(ClassifySpeed("ido", 100))
+// 	fmt.Println(ClassifySpeed("kate", 80))
+// 	fmt.Println(ClassifySpeed("joy", 50))
+// }
