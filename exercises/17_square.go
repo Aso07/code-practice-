@@ -9,6 +9,6 @@ func PrintSquare(number int) {
 		fmt.Println(strings.Repeat("*", number))
 	}
 }
-func main() {
-	PrintSquare(4)
-}
+// func main() {
+// 	PrintSquare(4)
+// }
