@@ -8,7 +8,7 @@ func ReverseTriangle(number int) {
 	for i := number; i >= 1; i-- {
 		fmt.Println(strings.Repeat("*", i))
 	}
-}
-func main() {
-	ReverseTriangle(5)
-}
+// }
+// func main() {
+// 	ReverseTriangle(5)
+// }
