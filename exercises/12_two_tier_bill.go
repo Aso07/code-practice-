@@ -10,8 +10,8 @@ func TwoTierBill(name string, units int) string {
 		bills = (50 * 50) + ((units - 50) * 75 )
 	}
 	return fmt.Sprintf("%s owes %d", name, bills)
-}
-func main() {
-	fmt.Println(TwoTierBill("Aso", 30))
-	fmt.Println(TwoTierBill("Ido", 80))
-}
+// }
+// func main() {
+// 	fmt.Println(TwoTierBill("Aso", 30))
+// 	fmt.Println(TwoTierBill("Ido", 80))
+// }
