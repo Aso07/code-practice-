@@ -12,9 +12,9 @@ func ShippingCost(name string, weight int) string {
 		cost = (5 * 500) + (10 * 350) + (weight - 15)* 200
 	}
 	return fmt.Sprintf("%s cost is %d", name, cost)
-}
-func main() {
-	fmt.Println(ShippingCost("Aso",3))
-	fmt.Println(ShippingCost("Ido",10))
-	fmt.Println(ShippingCost("Joy",20))
-}
+// }
+// func main() {
+// 	fmt.Println(ShippingCost("Aso",3))
+// 	fmt.Println(ShippingCost("Ido",10))
+// 	fmt.Println(ShippingCost("Joy",20))
+// }
